@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     width: 960px;
     font-family: 'IBM plex serif', serif;
@@ -9,24 +13,33 @@ main {
     border-top: dashed 10px gray;
     border-bottom: dashed 10px gray;
 }
+
 #logo {
+    padding-top: 30px;
+    margin-right: 326px;
     display: inline-block;
+    width: 400px;
 }
-#logo h4 {
-    display: inline-block;
+
+#logo img{
+    padding-right: 15px;
+    float: left;
+    height: 50px;
 }
+
 #social {
     display: inline-block;
-    position: relative;
-    left: 440px;
+    padding-left: 8px;
 }
 #social li, #social ul{
     display: inline-block;
 }
+#cake {
+    width: 960px;
+}
 h4 {
     font-family: "yellow-tail", cursive;
     font-size: 2.3em;
-    position: relative;
 }
 h5 {
     font-family: "vt323", monospace;
@@ -45,21 +58,27 @@ h2 {
     color: gray;
     font-size: 13px;
 }
-#col1, #col2 {
-    display: inline-block;
+
+#list img {
+    width: 960px;
+}
+#ingredients {
+    position: relative;
+    bottom: 265px;
+    padding-left: 60px;
+}
+
+.col {
+    display:inline-block;
     list-style: none;
+    width: 400px;
+    font-size: 24px;;
 }
 #col1 {
-    position: relative;
-    bottom: 265px;
-    left: 60px;
+    position:relative;
+    bottom: 24px;
+}
 
-}
-#col2 {
-    position: relative;
-    bottom: 265px;
-    left: 200px;
-}
 #info {
     display: inline-block;
 }
@@ -74,7 +93,7 @@ h2 {
 article p {
     text-indent: 30px;
     margin-top: 30px;
-    max-width: 900px;
+    max-width: 960px;
 }
 #list {
     margin-top: 30px;
